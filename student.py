@@ -1,0 +1,9 @@
+name=input("enter your name: ")
+j=int(input("enter your java marks: "))
+p=int(input("enter your python marks: "))
+c=int(input("enter your  c marks: "))
+cpp=int(input("enter your c++ marks: "))
+php=int(input("enter your php marks: "))
+total=j+p+c+cpp+php
+print("total marks =",total)
+print("percentage =",(total/500)*100)
